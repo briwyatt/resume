@@ -1,0 +1,280 @@
+{
+    "basics":
+    {
+        "name": "Bri Wyatt",
+        "label": "Sr. Principal Software Engineer",
+        "picture": "https://www.gravatar.com/avatar/51f544d3bc24b7d4d0aa6b140e3be89f?s=200",
+        "email": "jhunthrop@gmail.com",
+        "phone": "(479)-426-8782",
+        "website": "https://registry.jsonresume.org/jhunthrop",
+        "summary": "Hey! I'm Justin. I'm an engineer and I love what I do. I'm passionate about making great technology products that have a true impact. I'm also passionate about helping others reach their goals, making work fun, and delivering. I also have 4+ years of remote work experience.",
+        "location":
+        {
+            "city": "Rogers",
+            "region": "AR"
+        },
+        "profiles":
+        [
+            {
+                "network": "LinkedIn",
+                "username": "jhunthrop",
+                "url": "https://www.linkedin.com/in/jhunthrop"
+            },
+            {
+                "network": "Twitter",
+                "username": "justinhunthrop",
+                "url": "https://twitter.com/JustinHunthrop"
+            }
+        ]
+    },
+    "work":
+    [
+        {
+            "company": "EMC / Virtustream",
+            "position": "Sr. Principal Software Engineer",
+            "website": "http://www.virtustream.com/",
+            "startDate": "2016-04-18",
+            "summary": "In this role, I lead remote teams of software engineers with a focus on delivering software-defined infrastructure services.",
+            "highlights":
+            [
+                "Lead design, development, and implementation of a storage provisioning and management platform",
+                "Coached and mentored engineers of all skill levels",
+                "Lead efforts to standardize and streamline software development practices",
+                "Implemented objective interview practices for engineering applicants across our organization",
+                "Implemented and lead technical interview panel",
+                "Lead major POC efforts regarding software defined infrastructure"
+            ]
+        },
+        {
+            "company": "Walmart",
+            "position": "Technical Expert",
+            "website": "https://www.walmart.com/",
+            "startDate": "2015-09-14",
+            "endDate": "2016-04-15",
+            "summary": "In this role, my main focus was driving implementation of modern technology practices in a legacy environment.",
+            "highlights":
+            [
+                "Planning, design, and proof of concept for a distributed container platform to support all Walmart distribution centers",
+                "Implemented CI/CD systems and processes to facilitate hundreds of users contributing to centralized configuration management of over 50,000 Linux systems",
+                "Drove the use of configuration management testing patterns by creating easy to use repository templates that could be distributed across the company",
+                "Champion of software defined infrastructure to internal business units"
+            ]
+        },
+        {
+            "company": "EMC",
+            "position": "Principal Software Engineer",
+            "website": "http://www.emc.com",
+            "startDate": "2014-04-14",
+            "endDate": "2015-09-09",
+            "summary": "",
+            "highlights":
+            [
+                "Helped deliver object storage service that was over 2 exabytes in size and supported millions of users",
+                "Team won the President's award, which is the highest honor given by EMC",
+                "Implemented three US VMWare clouds to support internal EMC IT workloads",
+                "Deployment automation including bare-metal provisioning, platform configuration, and shared services (NTP, DNS, Tacacs+, etc..)",
+                "Created the initial designs and POC environments for API driven compute, network, and storage services leveraging Openstack, Ceph, and Cisco ASRs"
+            ]
+        },
+        {
+            "company": "Cerner Corporation",
+            "position": "Software Engineer",
+            "website": "https://www.cerner.com/",
+            "startDate": "2011-01-10",
+            "endDate": "2014-04-11",
+            "summary": "",
+            "highlights":
+            [
+                "Developed bare-metal provisioning systems to enable real time system deployment or reclamation. The overall process time for deploying a physical server went from 3 months to 18 minutes.",
+                "Created a system leveraging SNMP trap handlers to invoke auto-remediation for infrastructure devices",
+                "Implemented higher level APIs above infrastructure endpoints to enforce business rules, provide unified identity, and support audit logging",
+                "Developed an in-memory Linux distribution that supported dynamic inventory and component auditing of physical servers",
+                "Designed and implemented a system for provisioning and configuration of F5 Virtual Edition (Early form of LBaaS)",
+                "Created a storage and network mapping solution to support provisioning and impact analysis",
+                "Implementation of software tracking platform to help reduce TCO of virtualized software installations",
+                "Designed system to discover unused resources in corporate data centers so they could be reclaimed or decommissioned "
+            ]
+        },
+        {
+            "company": "J.B. Hunt Transport",
+            "position": "Warranty Coordinator",
+            "website": "https://www.jbhunt.com/",
+            "startDate": "2010-07-19",
+            "endDate": "2011-01-07",
+            "summary": "",
+            "highlights":
+            [
+                "Created highly optimized SQL procedures to assist with data mining and analytics",
+                "Database management of SQL server clusters"
+            ]
+        },
+        {
+            "company": "Arkansas Tech University",
+            "position": "IT Intern",
+            "website": "http://www.atu.edu/",
+            "startDate": "2009-01-12",
+            "endDate": "2010-05-15",
+            "summary": "",
+            "highlights":
+            [
+                "System support for faculty, staff, and students"
+            ]
+        }
+    ],
+    "volunteer":
+    [],
+    "education":
+    [
+        {
+            "institution": "Arkansas Tech University",
+            "area": "Information Technology",
+            "studyType": "Bachelor of Applied Sciences",
+            "startDate": "2004-08-16",
+            "endDate": "2010-05-15"
+        }
+    ],
+    "awards":
+    [],
+    "publications":
+    [],
+    "skills":
+    [
+        {
+            "name": "Leadership",
+            "level": "Master",
+            "keywords":
+            [
+                "Communication",
+                "Motivation",
+                "Focus",
+                "Delegation",
+                "Coaching & Development",
+                "Trust"
+            ]
+        },
+        {
+            "name": "Development",
+            "level": "Master",
+            "keywords":
+            [
+                "Python",
+                "Flask",
+                "Django",
+                "Node",
+                "Express",
+                "React",
+                "ReST"
+            ]
+        },
+        {
+            "name": "Cloud Infrastructure",
+            "level": "Master",
+            "keywords":
+            [
+                "Openstack",
+                "OpenContrail",
+                "Ceph",
+                "Apache Mesos",
+                "Docker",
+                "Kubernetes",
+                "VMWare vSphere"
+            ]
+        },
+        {
+            "name": "Devops",
+            "level": "Master",
+            "keywords":
+            [
+                "Ansible",
+                "Saltstack",
+                "Chef",
+                "Puppet",
+                "Jenkins",
+                "Team City",
+                "Git",
+                "GitHub",
+                "Gitlab"
+            ]
+        },
+        {
+            "name": "Cloud Architecture",
+            "level": "Master",
+            "keywords":
+            [
+                "Solution Design",
+                "R & D",
+                "Capital Planning",
+                "BC/DR",
+                "Requirements Gathering",
+                "High Availability"
+            ]
+        },
+        {
+            "name": "System Administration",
+            "level": "Master",
+            "keywords":
+            [
+                "Debian/Ubuntu",
+                "RHEL/CentOS/Fedora",
+                "Bash",
+                "Patching/Upgrades",
+                "Repository Management",
+                "Package Management"
+            ]
+        },
+        {
+            "name": "Database Management",
+            "level": "Intermediate",
+            "keywords":
+            [
+                "SQL Server",
+                "Oracle",
+                "MySQL/Maria",
+                "PostgreSQL",
+                "Cassandra",
+                "MongoDB"
+            ]
+        }
+    ],
+    "languages":
+    [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests":
+    [
+        {
+            "name": "Tech",
+            "keywords":
+            []
+        },
+        {
+            "name": "Golf",
+            "keywords":
+            []
+        },
+        {
+            "name": "Boating",
+            "keywords":
+            []
+        },
+        {
+            "name": "Games",
+            "keywords":
+            []
+        }
+    ],
+    "references":
+    [
+        {
+            "name": "",
+            "reference": "Upon Request"
+        }
+    ],
+    "meta":
+    {
+        "theme": "elegant"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "jhunthrop's resume",
+  "author": "jhunthrop@gmail.com",
+  "dependencies": {
+    "hackmyresume": "^1.8.0",
+    "handlebars": "*",
+    "html-pdf": "^2.2.0",
+    "jsonresume-theme-class": "*",
+    "jsonresume-theme-elegant": "*",
+    "jsonresume-theme-elegant-projects": "^1.10.2",
+    "jsonresume-theme-flat": "*",
+    "jsonresume-theme-slick": "^0.1.16",
+    "jsonresume-theme-stackoverflow": "*",
+    "resume-cli": "^0.4.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhunthrop/resume.git"
+  },
+  "private": true
+}

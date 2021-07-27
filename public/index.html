@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bri Wyatt</title>
+    <meta name="description" content="Hey! I&#x27;m Justin. I&#x27;m an engineer and I love what I do. I&#x27;m passionate about making great technology products that have a true impact. I&#x27;m also passionate about helping others reach their goals, making work fun, and delivering. I also have 4+ years of remote work experience." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" />
+    <style>:root {
+  /* Colors */
+  --primaryColor: #212529;
+  --secondaryColor: #95a5a6;
+  --accentColor: #f1c40f;
+  --linkColor: #2ecc71;
+  --mutedColor: #f4f6f6;
+
+  /* Typography */
+  --ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--ratio));
+  --scale2: calc(var(--scale1) * var(--ratio));
+  --scale3: calc(var(--scale2) * var(--ratio));
+  --scale4: calc(var(--scale3) * var(--ratio));
+  --scale5: calc(var(--scale4) * var(--ratio));
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  color: var(--primaryColor);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+li + li {
+  margin-top: 0.2em;
+}
+
+li::marker {
+  color: var(--mutedColor);
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--accentColor);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--secondaryColor);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--accentColor);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--mutedColor);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--secondaryColor);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+.masthead {
+  background: var(--mutedColor);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  row-gap: 0;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spaced-list:first-child::before {
+  border-bottom: 1px solid var(--mutedColor);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--mutedColor);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+          <h1>Bri Wyatt</h1>
+          <h2>Sr. Principal Software Engineer</h2>
+      </header>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="grid-list">
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:jhunthrop@gmail.com">jhunthrop@gmail.com</a>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              (479)-426-8782
+            </div>
+        </div>
+      </section>
+        <section id="about">
+          <h3>About</h3>
+          <article>
+            <p>Hey! I'm Justin. I'm an engineer and I love what I do. I'm passionate about making great technology products that have a true impact. I'm also passionate about helping others reach their goals, making work fun, and delivering. I also have 4+ years of remote work experience.</p>
+          </article>
+        </section>
+        <section id="profiles">
+          <h3>Profiles</h3>
+          <div class="grid-list">
+              <div>
+                  <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/jhunthrop">jhunthrop</a>
+              </div>
+              <div>
+                  <h4>Twitter</h4>
+                    <a href="https://twitter.com/JustinHunthrop">justinhunthrop</a>
+              </div>
+          </div>
+        </section>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2016-04-18">Apr 2016</time> –
+                    Present
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Sr. Principal Software Engineer</strong>
+                </div>
+              </header>
+                <p>In this role, I lead remote teams of software engineers with a focus on delivering software-defined infrastructure services.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Lead design, development, and implementation of a storage provisioning and management platform</li>
+                    <li>Coached and mentored engineers of all skill levels</li>
+                    <li>Lead efforts to standardize and streamline software development practices</li>
+                    <li>Implemented objective interview practices for engineering applicants across our organization</li>
+                    <li>Implemented and lead technical interview panel</li>
+                    <li>Lead major POC efforts regarding software defined infrastructure</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2015-09-14">Sep 2015</time> –
+                    <time datetime="2016-04-15">Apr 2016</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Technical Expert</strong>
+                </div>
+              </header>
+                <p>In this role, my main focus was driving implementation of modern technology practices in a legacy environment.</p>
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Planning, design, and proof of concept for a distributed container platform to support all Walmart distribution centers</li>
+                    <li>Implemented CI/CD systems and processes to facilitate hundreds of users contributing to centralized configuration management of over 50,000 Linux systems</li>
+                    <li>Drove the use of configuration management testing patterns by creating easy to use repository templates that could be distributed across the company</li>
+                    <li>Champion of software defined infrastructure to internal business units</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2014-04-14">Apr 2014</time> –
+                    <time datetime="2015-09-09">Sep 2015</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Principal Software Engineer</strong>
+                </div>
+              </header>
+                
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Helped deliver object storage service that was over 2 exabytes in size and supported millions of users</li>
+                    <li>Team won the President&#x27;s award, which is the highest honor given by EMC</li>
+                    <li>Implemented three US VMWare clouds to support internal EMC IT workloads</li>
+                    <li>Deployment automation including bare-metal provisioning, platform configuration, and shared services (NTP, DNS, Tacacs+, etc..)</li>
+                    <li>Created the initial designs and POC environments for API driven compute, network, and storage services leveraging Openstack, Ceph, and Cisco ASRs</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2011-01-10">Jan 2011</time> –
+                    <time datetime="2014-04-11">Apr 2014</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Software Engineer</strong>
+                </div>
+              </header>
+                
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Developed bare-metal provisioning systems to enable real time system deployment or reclamation. The overall process time for deploying a physical server went from 3 months to 18 minutes.</li>
+                    <li>Created a system leveraging SNMP trap handlers to invoke auto-remediation for infrastructure devices</li>
+                    <li>Implemented higher level APIs above infrastructure endpoints to enforce business rules, provide unified identity, and support audit logging</li>
+                    <li>Developed an in-memory Linux distribution that supported dynamic inventory and component auditing of physical servers</li>
+                    <li>Designed and implemented a system for provisioning and configuration of F5 Virtual Edition (Early form of LBaaS)</li>
+                    <li>Created a storage and network mapping solution to support provisioning and impact analysis</li>
+                    <li>Implementation of software tracking platform to help reduce TCO of virtualized software installations</li>
+                    <li>Designed system to discover unused resources in corporate data centers so they could be reclaimed or decommissioned </li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2010-07-19">Jul 2010</time> –
+                    <time datetime="2011-01-07">Jan 2011</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Warranty Coordinator</strong>
+                </div>
+              </header>
+                
+                <h5>Highlights</h5>
+                <ul>
+                    <li>Created highly optimized SQL procedures to assist with data mining and analytics</li>
+                    <li>Database management of SQL server clusters</li>
+                </ul>
+            </article>
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4></h4>
+                  <span>
+                    <time datetime="2009-01-12">Jan 2009</time> –
+                    <time datetime="2010-05-15">May 2010</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>IT Intern</strong>
+                </div>
+              </header>
+                
+                <h5>Highlights</h5>
+                <ul>
+                    <li>System support for faculty, staff, and students</li>
+                </ul>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <div class="spaced-list">
+                  <h4>Arkansas Tech University</h4>
+                  <span>
+                    <time datetime="2004-08-16">Aug 2004</time> –
+                    <time datetime="2010-05-15">May 2010</time>
+                  </span>
+                </div>
+                <div class="spaced-list">
+                    <strong>Information Technology</strong>
+                </div>
+              </header>
+                <p>Bachelor of Applied Sciences</p>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Leadership</h4>
+                <ul class="tag-list">
+                    <li>Communication</li>
+                    <li>Motivation</li>
+                    <li>Focus</li>
+                    <li>Delegation</li>
+                    <li>Coaching &amp; Development</li>
+                    <li>Trust</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Development</h4>
+                <ul class="tag-list">
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>Django</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>React</li>
+                    <li>ReST</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Cloud Infrastructure</h4>
+                <ul class="tag-list">
+                    <li>Openstack</li>
+                    <li>OpenContrail</li>
+                    <li>Ceph</li>
+                    <li>Apache Mesos</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>VMWare vSphere</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Devops</h4>
+                <ul class="tag-list">
+                    <li>Ansible</li>
+                    <li>Saltstack</li>
+                    <li>Chef</li>
+                    <li>Puppet</li>
+                    <li>Jenkins</li>
+                    <li>Team City</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Gitlab</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Cloud Architecture</h4>
+                <ul class="tag-list">
+                    <li>Solution Design</li>
+                    <li>R &amp; D</li>
+                    <li>Capital Planning</li>
+                    <li>BC/DR</li>
+                    <li>Requirements Gathering</li>
+                    <li>High Availability</li>
+                </ul>
+            </div>
+            <div>
+                <h4>System Administration</h4>
+                <ul class="tag-list">
+                    <li>Debian/Ubuntu</li>
+                    <li>RHEL/CentOS/Fedora</li>
+                    <li>Bash</li>
+                    <li>Patching/Upgrades</li>
+                    <li>Repository Management</li>
+                    <li>Package Management</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Database Management</h4>
+                <ul class="tag-list">
+                    <li>SQL Server</li>
+                    <li>Oracle</li>
+                    <li>MySQL/Maria</li>
+                    <li>PostgreSQL</li>
+                    <li>Cassandra</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>English</h4>
+              Native speaker
+            </div>
+        </div>
+      </section>
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Tech</h4>
+            </div>
+            <div>
+                <h4>Golf</h4>
+            </div>
+            <div>
+                <h4>Boating</h4>
+            </div>
+            <div>
+                <h4>Games</h4>
+            </div>
+        </div>
+      </section>
+      <section id="references">
+        <h3>References</h3>
+        <div class="stack">
+              <blockquote>
+                <p>Upon Request</p>
+                  <p>
+                    <cite></cite>
+                  </p>
+              </blockquote>
+        </div>
+      </section>
+  </body>
+</html>
